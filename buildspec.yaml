@@ -3,7 +3,7 @@ phases:
   install:
     commands:
       - echo install serverless
-      - npm -g install serverless/serverless#5487ad80933e5b260592fa703963bf04a51e8814
+      - npm install -g serverless
   pre_build:
     commands:
       - echo install npm packages
