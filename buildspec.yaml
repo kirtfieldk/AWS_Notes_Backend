@@ -12,7 +12,7 @@ phases:
     commands:
       - echo deployment started at `date`
       - echo Deploying with serverless fram
-      - sls deploy -v -s $ENV_NAME
+      - sls deploy -v -s prod
   post_build:
     commands:
       - echo deployment completed at `date`
