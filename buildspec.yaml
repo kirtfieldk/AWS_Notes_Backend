@@ -3,7 +3,7 @@ phases:
   install:
     commands:
       - echo install serverless
-      - npm install -g serverless
+      - npm install -g serverless --unsafe-perm=true
   pre_build:
     commands:
       - echo install npm packages
