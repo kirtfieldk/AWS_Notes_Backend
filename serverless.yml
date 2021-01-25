@@ -1,12 +1,12 @@
 
 
-service: sls-node-backend
+service: sls-notes-backend
 frameworkVersion: '2'
 
 provider:
   name: aws
   runtime: nodejs12.x
-  lambdaHashingVersion: 20201221
+  # lambdaHashingVersion: 20201221
   region: us-east-1
   stage: prod
   memorySize: 128
