@@ -1,6 +1,6 @@
 
 
-service: sls-notes-backend
+service: sls-node-backend
 frameworkVersion: '2'
 
 provider:
